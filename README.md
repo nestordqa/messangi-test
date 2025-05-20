@@ -47,10 +47,3 @@ Abre tu navegador en [http://localhost:4200](http://localhost:4200) para usar la
 ---
 
 **¡Gracias por usar Angular Messaging App!** 🎉
-
----
-
-¿Quieres ayuda con algo más? ¡Estoy aquí para ayudarte!
-
----
-Respuesta de Perplexity: pplx.ai/share
