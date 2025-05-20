@@ -1,0 +1,16 @@
+<div class="message-sender-container">
+    <mat-form-field appearance="outline" class="full-width" style="position: relative;">
+        <mat-label>Mensaje a enviar...</mat-label>
+        <textarea matInput [(ngModel)]="message" rows="4"></textarea>
+
+        <button mat-raised-button 
+            color="primary" 
+            (click)="sendMessage()"
+            [disabled]="!user || !message.trim()"
+            class="send-button"
+            type="button"
+        >
+            Enviar SMS
+        </button>
+    </mat-form-field>
+</div>

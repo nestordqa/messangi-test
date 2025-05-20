@@ -1,0 +1,19 @@
+<div class="user-list-container">
+  <mat-list>
+    <mat-list-item *ngFor="let user of users" (click)="selectUser(user)" class="user-card">
+      <img matListItemAvatar [src]="user.avatar" [alt]="user.name" class="user-avatar">
+      <div class="user-info">
+        <h3 matListItemTitle>{{ user.name }}</h3>
+        <p matListItemLine>{{ user.phone }}</p>
+        <p matListItemLine>{{ user.experience }} años de experiencia</p>
+      </div>
+    </mat-list-item>
+  </mat-list>
+
+  <div class="new-user-button">
+    <a mat-raised-button color="primary" routerLink="/register">
+      <mat-icon>add</mat-icon>
+      Nuevo registro
+    </a>
+  </div>
+</div>

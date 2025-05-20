@@ -1,0 +1,66 @@
+.no-user-selected {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2em
+}
+
+.user-preview-card {
+    padding: 2em;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    height: 100%;
+    row-gap: 1em;
+    color: #E9E0E4
+}
+
+mat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mat-card-header-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 1em;
+  flex: 1 1 auto;
+}
+
+.info-user-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-card-avatar {
+  margin-right: 1em;
+  flex-shrink: 0;
+}
+
+.mat-card-header-text > mat-card-title:first-child {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.25em;
+}
+
+.experience-container {
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #E9E0E4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+  min-width: 120px;
+  padding-left: 1em;
+}

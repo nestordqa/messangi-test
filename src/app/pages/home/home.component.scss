@@ -1,0 +1,41 @@
+.home-container {
+  display: flex;
+  justify-content:space-between;
+  height: 100vh;
+  width: 100vw;
+  background-color: #161616;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.preview-section {
+  height: 40%;
+  width: 100%;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.message-section {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #2e2e2e;
+}

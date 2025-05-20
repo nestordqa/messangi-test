@@ -1,0 +1,17 @@
+.register-container  {
+    background-color: #B2B2B2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: max-content;
+}

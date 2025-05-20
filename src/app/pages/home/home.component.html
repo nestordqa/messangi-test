@@ -1,0 +1,14 @@
+<div class="home-container">
+    <div class="main-content">
+        <div class="preview-section">
+            <app-user-preview [user]="selectedUser"></app-user-preview>
+        </div>
+
+        <div class="message-section">
+            <app-message-sender [user]="selectedUser"></app-message-sender>
+        </div>
+    </div>
+    <div class="sidebar">
+        <app-user-list (userSelected)="onUserSelected($event)"></app-user-list>
+    </div>
+</div>
